@@ -1,0 +1,2 @@
+# qldiem
+quản lý điểm
