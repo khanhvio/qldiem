@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { ErrorsType, FormLoginType } from '@utils/type'
-import { emailValidator, passwordValidator } from '@utils/validator'
+import { emailValidator, passwordValidator } from '../utils/validator'
 
 const touchErrors = (errors: ErrorsType) => {
   return Object.entries(errors).reduce((acc: any, [field, fieldError]) => {
