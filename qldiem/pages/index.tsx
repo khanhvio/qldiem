@@ -128,23 +128,20 @@ import Image from "next/image";
 export default function Login() {
   return (
     <>
-      <div className="bg-neutral-200">
-        <div className="center">
-          <div className="text-lg">
+      <div className="bg-neutral-200 h-full">
+        <div className="text-center pt-10">
+          <div className="text-4xl font-semibold">
             Sign in
           </div>
         </div>
-      </div>
-      <div>
-        Sign in and start managing your candidates!
-      </div>
-      <div className="">
-        <Image
-          src="/images/Vectors.png"
-          alt="Image bottom"
-          width={1536}
-          height={111}
-        />
+        <div className="text-center mt-10 text-xl">
+          Sign in and start managing your candidates!
+        </div>
+        <div style={{
+          backgroundImage: "/images/Vectors.png",
+          width: '100%',
+          height: '100%',
+        }}></div>
       </div>
     </>
   )
