@@ -10,32 +10,6 @@ export const ListClass = () => {
     const router = useRouter()
     const [classes, setClasses] = useState<[Classes]>()
     
-    // const { isLoading }  = useQuery({
-    //     queryKey: ["get class"] ,
-    //     queryFn: () => getClassesById('GV01')
-    // })
-
-    // if(isLoading) {
-    //     return <div>
-    //         Loading...
-    //     </div>
-    // }
-
-    // const getData = async () => {
-    //     return await axios.get(`https://localhost:7222/api/teacher/GV01`).then ( (response) => {
-    //         return {
-    //             status: response.status,
-    //             data: response.data
-    //         }
-    //     }).catch((error) =>{
-    //         console.log(error)
-    //         return {
-    //             status: error.status,
-    //             data: error.response
-    //         }
-    //     })
-    // }
-    
 
     useEffect(() => {
         getClassesById('GV01').then( (response) => {
