@@ -47,7 +47,7 @@ export const MatkScore = () => {
                                 SV 01
                             </td>
                             <td className="py-2 border-e border-b w-4/12 px-4">
-                                <CustomInput placeholder="" onChange={onChangeValue} />
+                                <CustomInput placeholder="" onChange={onChangeValue} tabIndex={0}/>
                             </td>
                         </tr>
                         <tr className="text-center">

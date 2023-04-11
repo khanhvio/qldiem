@@ -43,7 +43,7 @@ export const CustomButton = ({
           : ''
       } ${wrapperClassName}`}
     >
-      <button
+      <button tabIndex={-1}
         className={`w-full h-full btn-bg relative ${
           variant === 'background'
             ? `text-white bg-gradient-to-r from-purple-600 to-blue-500 hover:bg-gradient-to-bl

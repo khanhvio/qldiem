@@ -19,18 +19,18 @@ export const NavbarMenu = () => {
                 </div>
             </div>
             <ul className="text-lg font-sans text-white text-center mt-10">
-                <Link href="/student">
+                <Link href="/student" tabIndex={-1}>
                     <li className="pt-5 pb-5 hover:bg-purple-950 cursor-pointer">Học sinh</li>
                 </Link>
-                <Link href="/course">
+                <Link href="/course" tabIndex={-1}>
                     <li className="pt-5 pb-5 hover:bg-purple-950 cursor-pointer">Khóa học</li>
                 </Link>
-                <Link href="/subject">
+                <Link href="/subject" tabIndex={-1}>
                     <li className="pt-5 pb-5 hover:bg-purple-950 cursor-pointer">
                         Môn học
                     </li>
                 </Link>
-                <Link href="/classes">
+                <Link href="/classes" tabIndex={-1}>
                     <li className="pt-5 pb-5 hover:bg-purple-950 cursor-pointer">
                         Lớp học
                     </li>
