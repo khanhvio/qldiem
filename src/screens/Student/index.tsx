@@ -29,7 +29,7 @@ export const ListStudent = () => {
                     <tbody>
                         <tr className="bg-slate-300" style={{ backgroundColor: "#EDF2F7;" }}>
                             <th>#</th>
-                            <th>Mã sinh viên</th>
+                            <th>Mã học sinh</th>
                             <th>Name</th>
                             <th>Phone</th>
                             <th>Email</th>

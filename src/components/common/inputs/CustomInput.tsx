@@ -10,6 +10,7 @@ interface Props {
     placeholder: string
     customClassName?: string
     onChange: any
+    tabIndex?: number
     changeStatusPassword?: () => void
   }
 
@@ -21,6 +22,7 @@ interface Props {
     value,
     customClassName,
     placeholder,
+    tabIndex,
     onChange,
     changeStatusPassword,
     ...props
@@ -48,6 +50,7 @@ interface Props {
           onFocus={handleFocus}
           name={name}
           value={value}
+          tabIndex={tabIndex}
           onChange={onChange}
           onBlur={handleBlur}
           {...props}
